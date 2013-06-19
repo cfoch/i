@@ -1,0 +1,67 @@
+*{ outline: none; }
+body {
+    background: #E6E6E6;
+    height: 100%;
+    width: 100%;
+    margin: 50 50;
+    min-width: 1024px;
+    min-height: 550px;
+}
+
+@font-face {
+    font-family: conforta;
+    src: local("conforta"), url("fonts/Comfortaa-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cfoch {
+    background: white;
+    height: 360px;
+    width: 360px;
+    font-family: conforta;
+    font-size: 54px;
+    text-align: center;
+    line-height: 360px;
+    text-shadow: black 0 0 5px;
+}
+
+div.sub_blog {
+    background: white;
+    height: 170px;
+    width: 170px;
+    font-family: conforta;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 170px;
+}
+
+a.sub_blog {
+    text-decoration:none;
+    color: #333333;
+}
+
+.sub_blog_shadow {
+    background: white;
+    height: 170px;
+    width: 170px;
+    font-family: conforta;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 170px;
+    box-shadow: black 0 0 5px;
+
+}
+
+.art_dev {
+    float: left;
+}
+.cfoch_blog_pua { 
+    float: left;
+}  
+
+.blog_pua { 
+    background: blue;
+}
